@@ -1,0 +1,39 @@
+﻿<Window x:Class="GTO_Program.DataStudents"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GTO_Program"
+        mc:Ignorable="d"
+        Title="DataStudents" Height="576" Width="339">
+    <Grid>
+        <Label Content="Подтягивания" HorizontalAlignment="Left" Margin="40,90,0,0" VerticalAlignment="Top"/>
+        <Label Content="Брусья" HorizontalAlignment="Left" Margin="40,120,0,0" VerticalAlignment="Top"/>
+        <Label Content="Бег 30 метров" HorizontalAlignment="Left" Margin="40,150,0,0" VerticalAlignment="Top"/>
+        <Label Content="Бег 60 метров" HorizontalAlignment="Left" Margin="40,180,0,0" VerticalAlignment="Top"/>
+        <Label Content="Бег 100 метров" HorizontalAlignment="Left" Margin="40,210,0,0" VerticalAlignment="Top"/>
+        <Label Content="Бег 2000/3000 метров" HorizontalAlignment="Left" Margin="40,240,0,0" VerticalAlignment="Top"/>
+        <Label Content="Отжимания" HorizontalAlignment="Left" Margin="40,270,0,0" VerticalAlignment="Top"/>
+        <Label Content="Прыжок с места" HorizontalAlignment="Left" Margin="40,300,0,0" VerticalAlignment="Top"/>
+        <Label Content="Прыжок с разбега" HorizontalAlignment="Left" Margin="40,330,0,0" VerticalAlignment="Top"/>
+        <Label Content="Пресс" HorizontalAlignment="Left" Margin="40,360,0,0" VerticalAlignment="Top"/>
+        <Label Content="Рывки с гирей" HorizontalAlignment="Left" Margin="40,390,0,0" VerticalAlignment="Top"/>
+        <Label Content="Наклоны" HorizontalAlignment="Left" Margin="40,420,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="podtig" HorizontalAlignment="Left" Height="23" Margin="178,90,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="brus" HorizontalAlignment="Left" Height="23" Margin="178,120,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="run30" HorizontalAlignment="Left" Height="23" Margin="178,150,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="run60" HorizontalAlignment="Left" Height="23" Margin="178,180,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="run100" HorizontalAlignment="Left" Height="23" Margin="178,210,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="run2000" HorizontalAlignment="Left" Height="23" Margin="178,240,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="otzim" HorizontalAlignment="Left" Height="23" Margin="178,270,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="jump" HorizontalAlignment="Left" Height="23" Margin="178,300,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="jumping" HorizontalAlignment="Left" Height="23" Margin="178,330,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="abs" HorizontalAlignment="Left" Height="23" Margin="178,360,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="girya" HorizontalAlignment="Left" Height="23" Margin="178,390,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="naklon" HorizontalAlignment="Left" Height="23" Margin="178,420,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="НАЗАД" HorizontalAlignment="Left" Margin="246,10,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button x:Name="Save" Content="Сохранить изменения" HorizontalAlignment="Left" Margin="40,467,0,0" VerticalAlignment="Top" Width="258" Click="Save_Click"/>
+        <TextBox x:Name="FIOS" HorizontalAlignment="Left" Height="23" Margin="40,34,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
